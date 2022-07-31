@@ -4,4 +4,8 @@
 
 A simple search engine App built with react 18
 
-type `npm start` on your terminal if you are trying to run the code on your own machine
+## installation
+
+Setup:
+
+- run `npm i && npm start` to start the development
