@@ -17,6 +17,7 @@ export const Results = () => {
         getResults(`${location.pathname}/q=${searchTerm}&num=40`);
       }
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [searchTerm, location.pathname]);
 
   console.log(results);
